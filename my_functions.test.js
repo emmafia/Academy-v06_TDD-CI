@@ -1,29 +1,4 @@
-// test("Adds 2 + 2 to equal 4", () => {
-//     expect(2+2).toBe(4);
-// });
-
-// test("Adds 2 + 3 not to equal 6", () => {
-//     expect(2+3).not.toBe(6);
-// });
-
-// test("Adds 0.1 + 0.2 to maybe equal 0.3", () => {
-//     expect(0.1+0.2).toBeCloseTo(0.3);
-// });
-
-// test("Compare objects 1" , () => {
-// const obj1 = {name:"test", data:[1,2,3]};
-// const obj2 = obj1;
-// expect(obj1).toBe(obj2)
-// });
-// Passes the test
-
-// test("Compare objects 2" , () => {
-// const obj1 = {name:"test", data:[1,2,3]};
-// const obj2 = {name:"test", data:[1,2,3]};
-// expect(obj1).toEqual(obj2)
-// });
-
-// -----Test på vår error.js-fil-----------------------------
+// -----Test på vår my_function.js-fil-----------------------------
 const myFunctions = require("./my_functions"); // Importerar funktionerna i filen "my_functions"
 
 describe('empty list', () => {
@@ -84,3 +59,14 @@ describe('add product', () => {
     });
 
 });
+
+// describe('remove product', () => {
+//     test('Function is implemented', () => {
+//         expect(myFunctions.removeProduct()).toBeDefined();
+//     });
+//     // test('Returns empty list when removing first product in list with 1 item', () => {
+//     //     let products = { name: "Banan", price: 15 };
+//     //     let index = 0;
+//     //     expect(myFunctions.menuRemoveProduct(products, index)).toEqual([]);
+//     // });
+// });

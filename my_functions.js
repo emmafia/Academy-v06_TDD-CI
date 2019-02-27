@@ -94,8 +94,14 @@ function isStringAValidPrice(price) {
 
 function menuRemoveProduct(products) {
   console.log("Funktionen är inte implementerad ännu :(");
-  return [];
+  // const index = readlineSync.question("Mata in numret på produkten du vill ta bort: ");
+  // const updateProducts = removeProduct(products, index);
+  // return updateProducts;
 }
+
+// function removeProduct() {
+//   console.log('test');
+// }
 
 function menuSearchProduct(products) {
   const name = readlineSync.question("Mata in namnet på produkten: ");
@@ -149,12 +155,12 @@ function emptyList() {
 const functions = {
   main,
   addProduct,
-  isStringAValidPrice,
-  menuRemoveProduct,
-  menuExpensiveCheapProduct,
   totalProductCost,
-  averageProductPrice,
   emptyList
+  // isStringAValidPrice,
+  // removeProduct,
+  // menuExpensiveCheapProduct,
+  // averageProductPrice,
 }
 
 if (typeof module === "object") {
