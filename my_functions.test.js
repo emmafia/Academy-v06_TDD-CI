@@ -17,7 +17,7 @@ describe('empty list', () => {
 
 });
 
-describe('total product cost', () => {
+describe('total product cost', () => {P
 
     test('return 0 on empty list', () => {
         expect(myFunctions.totalProductCost([])).toBe(0);
