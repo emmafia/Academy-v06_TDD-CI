@@ -156,7 +156,8 @@ const functions = {
   main,
   addProduct,
   totalProductCost,
-  emptyList
+  emptyList,
+  showProducts,
   // isStringAValidPrice,
   // removeProduct,
   // menuExpensiveCheapProduct,
