@@ -149,7 +149,11 @@ function emptyList() {
 const functions = {
   main,
   addProduct,
+  isStringAValidPrice,
+  menuRemoveProduct,
+  menuExpensiveCheapProduct,
   totalProductCost,
+  averageProductPrice,
   emptyList
 }
 
